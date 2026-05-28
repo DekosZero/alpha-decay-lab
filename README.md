@@ -2,7 +2,7 @@
 
 > A framework for measuring, modelling, and extending the half-life of microstructure trading signals.
 
-When a new alpha signal is discovered — order-flow imbalance, trade sign autocorrelation, short-term momentum — capital flows toward it. Arbitrageurs trade against it. Market makers adapt. Within weeks the edge can collapse entirely. This repo gives you the tools to measure that decay precisely, understand *why* it happens, and build adaptive signal weighting that keeps you ahead of the crowding curve.
+When a new alpha signal is discovered order capital flows toward it. Arbitrageurs trade against it. Market makers adapt. Within weeks the edge can collapse entirely. This repo gives you the tools to measure that decay precisely, understand why it happens, and build adaptive signal weighting that keeps you ahead of the crowding curve.
 
 ---
 
@@ -21,7 +21,7 @@ When a new alpha signal is discovered — order-flow imbalance, trade sign autoc
 ## Quickstart
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/alpha-decay-lab.git
+git clone https://github.com/DekosZero/alpha-decay-lab.git
 cd alpha-decay-lab
 pip install -e ".[dev]"
 ```
@@ -80,12 +80,6 @@ Write up the benchmark results. A 10-page empirical note is sufficient. Submit t
 - Hasbrouck, J. (1991). Measuring the information content of stock trades. *Journal of Finance*, 46(1), 179–207.
 - Glosten, L. & Milgrom, P. (1985). Bid, ask and transaction prices in a specialist market. *Journal of Financial Economics*, 14(1), 71–100.
 - Moody, J. & Saffell, M. (2001). Learning to trade via direct reinforcement. *IEEE Transactions on Neural Networks*, 12(4), 875–889.
-
----
-
-## Contributing
-
-See `CONTRIBUTING.md`. Issues and PRs welcome. If you're using this for a quant job application, please star the repo — it helps surface the project to others in the same boat.
 
 ---
 
